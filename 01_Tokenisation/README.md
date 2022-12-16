@@ -3,7 +3,9 @@ Tokenization is the process of breaking a stream of text into individual tokens,
 Here are the reasons why we should split punctuation from the token it goes with?
 
 a) By separating punctuation from the tokens, it is easier to consistently apply processing steps to the text. For example, if you want to lowercase all the words in a text, it is easier to do so if the punctuation is already separated from the words.
+
 b) Splitting punctuation from the tokens can make the text easier to read and understand.
+
 c) It becomes easier to make use of NLP libraries and tools if we separate punctuations from tokens
 
 ## Q2. Should abbreviations with space in them be written as a single token or two tokens?
