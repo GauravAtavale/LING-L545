@@ -1,0 +1,67 @@
+Multichar_Symbols
+
+%<noun%>
+%<singular%>
+%<plural%>
+
+@U.singular_to_plural_type_1.PL@
+@U.singular_to_plural_type_2.PL@
+@U.singular_to_plural_type_3.PL@
+@U.singular_to_plural_type_4.PL@
+@U.singular_to_plural_type_5.PL@
+
+
+LEXICON Root
+
+Desk%<noun%> :Desk  T_1 ;
+Table%<noun%> :Table  T_1 ;
+Computer%<noun%> :Computer  T_1 ;
+Car%<noun%> :Car  T_1 ;
+Mug%<noun%> :Mug  T_1 ;
+Jug%<noun%> :Jug   T_1 ;
+Tag%<noun%> :Tag   T_1 ;
+Speaker%<noun%> :Speaker  T_1 ;
+
+Octopus%<noun%> :Octop  T_2 ;
+Fungus%<noun%> :Fung T_2 ;
+
+Glass%<noun%> :Glass   T_3 ;
+Church%<noun%> :Church T_3 ;
+Bush%<noun%> :Bush   T_3 ;
+Buzz%<noun%> :Buzz  T_3 ;
+
+Cherry%<noun%> :Cherr  T_4 ;
+Berry%<noun%> :Berr  T_4 ;
+Ferry%<noun%> :Ferr  T_4 ;
+Baby%<noun%> :Bab   T_4 ;
+
+Thief%<noun%> :Thie  T_5 ;
+Shelf%<noun%> :Shel  T_5 ;
+Half%<noun%> :Hal  T_5 ;
+
+
+LEXICON T_1
+
+%<singular%>: #;
+@U.singular_to_plural_type_1.PL@%<plural%>:@U.singular_to_plural_type_1.PL@s # ; 
+
+LEXICON T_2
+
+%<singular%>:us #;
+@U.singular_to_plural_type_2.PL@%<plural%>:@U.singular_to_plural_type_2.PL@i # ; 
+
+LEXICON T_3
+
+%<singular%>: #;
+@U.singular_to_plural_type_3.PL@%<plural%>:@U.singular_to_plural_type_3.PL@es # ; 
+
+LEXICON T_4
+
+%<singular%>:y #;
+@U.singular_to_plural_type_4.PL@%<plural%>:@U.singular_to_plural_type_4.PL@ies # ; 
+
+LEXICON T_5
+
+%<singular%>:f #;
+@U.singular_to_plural_type_4.PL@%<plural%>:@U.singular_to_plural_type_4.PL@ves # ; 
+
