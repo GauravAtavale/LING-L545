@@ -1,3 +1,7 @@
-# Project
+# News Article Summarization
 
-`PROJECT DESCRIPTION GOES HERE`
+Text summarization is a technique that is used to condense a large piece of text into a shorter form that still contains the most important information from the original text. There are several key reasons why text summarization is crucial. First, text summarization is important because it saves time. Another reason is that it can help improve our understanding of the text. Text summarization can also be useful for people who have limited time or attention span.
+
+There are two broad techniques to accomplish this: (a)Extractive method—to obtain a summary, where we choose a subset of existing phrases/words/sentences from the original text. In other words, we extract the key lines or phrases from the original text. (b)Abstractive approach - this method generates summaries by utilizing natural language generating techniques and the construction of internal semantic representations. In this case, the summary may include words not contained in the original source. In this project, I am exploring multiple approaches to achieve summarization of news articles. I have used several datasets to develop and test different approaches. First, I built a baseline model with a Term Frequency based approach which is an Extractive method. And then explored multiple deep learning (DL) based abstractive summarization methods to achieve news article summarization.
+
+I built a baseline model using Term Frequency Based Text Summarization and then a LSTM based model on 3 different datasets. Evaluation metrics used were ROUGE-1, ROUGE-2 and ROUGE-L.
